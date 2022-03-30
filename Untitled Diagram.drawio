@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-03-30T20:25:26.241Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="mj9POC6dhzc2lQpg0GXM" version="17.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-30T20:37:53.491Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="pcT_eXB1kVHedRKiBrki" version="17.3.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="541" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="460" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="_t7eh_RpK8XlhsKC9bGU-9" value="Parcel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="120" y="90" width="190" height="250" as="geometry" />
+          <mxGeometry x="30" y="90" width="190" height="250" as="geometry" />
         </mxCell>
         <mxCell id="_t7eh_RpK8XlhsKC9bGU-3" value="+toAddress:String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_t7eh_RpK8XlhsKC9bGU-9">
           <mxGeometry y="26" width="190" height="26" as="geometry" />
@@ -34,17 +34,53 @@
         <mxCell id="_t7eh_RpK8XlhsKC9bGU-13" value="+Parcel()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="_t7eh_RpK8XlhsKC9bGU-9">
           <mxGeometry y="220" width="190" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="_t7eh_RpK8XlhsKC9bGU-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_t7eh_RpK8XlhsKC9bGU-25" target="_t7eh_RpK8XlhsKC9bGU-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_t7eh_RpK8XlhsKC9bGU-25" value="Truck" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="380" y="140" width="160" height="86" as="geometry" />
+          <mxGeometry x="360" y="90" width="160" height="164" as="geometry" />
         </mxCell>
         <mxCell id="_t7eh_RpK8XlhsKC9bGU-26" value="- truckID:long" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_t7eh_RpK8XlhsKC9bGU-25">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_t7eh_RpK8XlhsKC9bGU-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="_t7eh_RpK8XlhsKC9bGU-25">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        <mxCell id="_t7eh_RpK8XlhsKC9bGU-29" value="+ nextNode:int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_t7eh_RpK8XlhsKC9bGU-25">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_t7eh_RpK8XlhsKC9bGU-28" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_t7eh_RpK8XlhsKC9bGU-25">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        <mxCell id="_t7eh_RpK8XlhsKC9bGU-30" value="+ currentNode:int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_t7eh_RpK8XlhsKC9bGU-25">
+          <mxGeometry y="78" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_t7eh_RpK8XlhsKC9bGU-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="_t7eh_RpK8XlhsKC9bGU-25">
+          <mxGeometry y="104" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="_t7eh_RpK8XlhsKC9bGU-31" value="+ Truck()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_t7eh_RpK8XlhsKC9bGU-25">
+          <mxGeometry y="112" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_t7eh_RpK8XlhsKC9bGU-28" value="+ moveToNextNode()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_t7eh_RpK8XlhsKC9bGU-25">
+          <mxGeometry y="138" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_t7eh_RpK8XlhsKC9bGU-32" value="TruckLoad" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="340" width="160" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="_t7eh_RpK8XlhsKC9bGU-33" value="- ShipmentID:long" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_t7eh_RpK8XlhsKC9bGU-32">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_t7eh_RpK8XlhsKC9bGU-34" value="+ ParcelList: List" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_t7eh_RpK8XlhsKC9bGU-32">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_t7eh_RpK8XlhsKC9bGU-36" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="_t7eh_RpK8XlhsKC9bGU-32">
+          <mxGeometry y="78" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="_t7eh_RpK8XlhsKC9bGU-38" value="+ TruckLoad(ParcelList)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_t7eh_RpK8XlhsKC9bGU-32">
+          <mxGeometry y="86" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_t7eh_RpK8XlhsKC9bGU-41" value="+ TruckLoad()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_t7eh_RpK8XlhsKC9bGU-32">
+          <mxGeometry y="112" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_t7eh_RpK8XlhsKC9bGU-43" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_t7eh_RpK8XlhsKC9bGU-9" target="_t7eh_RpK8XlhsKC9bGU-32">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="120" y="320" as="sourcePoint" />
+            <mxPoint x="280" y="320" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
